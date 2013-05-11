@@ -1,0 +1,14 @@
+setup.py
+src/myiplocate/__init__.py
+src/myiplocate/app.py
+src/myiplocate/resource.py
+src/myiplocate.egg-info/PKG-INFO
+src/myiplocate.egg-info/SOURCES.txt
+src/myiplocate.egg-info/dependency_links.txt
+src/myiplocate.egg-info/entry_points.txt
+src/myiplocate.egg-info/not-zip-safe
+src/myiplocate.egg-info/requires.txt
+src/myiplocate.egg-info/top_level.txt
+src/myiplocate/tests/__init__.py
+src/myiplocate/tests/test_myiplocate.py
+src/myiplocate/tests/tests.py

@@ -1,0 +1,10 @@
+*.pyc
+bin
+develop-eggs
+extends-cache
+parts
+var
+.installed.cfg
+.project
+.pydevproject
+.pydevproject*

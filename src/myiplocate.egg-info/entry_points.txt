@@ -1,0 +1,3 @@
+[fanstatic.libraries]
+myiplocate = myiplocate.resource:library
+
