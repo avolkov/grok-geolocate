@@ -24,3 +24,23 @@ will be overwritten after running bin/buildout the next time.
 To run your project you can do::
 
   $ bin/paster serve parts/etc/deploy.ini
+
+###################
+Nginx config for setting up X-Forwarded-For headers.
+
+For additional informatio, visit
+http://grok.zope.org/documentation/how-to/grok-virtual-hosting-and-nginx
+
+
+server {
+
+        listen   myip.flamy.ca:80; ## listen for ipv4
+        server_name myip.flamy.ca;
+
+        access_log  /var/log/nginx/myip.access.log;
+        location /{
+                proxy_pass http://127.0.0.1:3456/myiplocate/++vh++http:myip.flamy.ca:80/++;
+                proxy_set_header X-Forwarded-For $remote_addr;
+
+        }
+}
