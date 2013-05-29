@@ -1,0 +1,11 @@
+<html>
+<head>
+  <title tal:content="string:${view/remote_ip}"/>
+</head>
+<body>
+  <h1 tal:content="string: Your IP is ${view/remote_ip}"/>
+  <div>
+    Your country is <span tal:content="string: ${view/country}" />
+  </div>
+</body>
+</html>

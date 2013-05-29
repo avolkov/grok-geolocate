@@ -5,3 +5,4 @@ fanstatic
 zope.fanstatic
 grokcore.chameleon
 grokcore.startup
+pygeoip

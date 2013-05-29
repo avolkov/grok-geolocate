@@ -3,7 +3,7 @@ zope_conf = %(here)s/zope.debug.conf
 
 [server:main]
 use = egg:Paste#http
-host = ${:host}
+host = 0.0.0.0
 port = ${:port}
 
 [pipeline:main]

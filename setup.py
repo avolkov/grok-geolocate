@@ -25,6 +25,7 @@ setup(name='myiplocate',
                         'zope.fanstatic',
                         'grokcore.chameleon',
                         'grokcore.startup',
+                        'pygeoip',
                         # Add extra requirements here
                         ],
       entry_points={
